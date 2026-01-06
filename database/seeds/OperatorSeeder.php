@@ -15,22 +15,21 @@ class OperatorSeeder extends Seeder
         DB::table('operator')->insert([
             [
                 'kode_operator' => '1',
-                'nama' => 'Rivaldo',
+                'nama' => 'Faizal',
                 'password' => bcrypt('admin'),
             ],
 
             [
                 'kode_operator' => '2',
-                'nama' => 'Iqbal',
+                'nama' => 'Chaerunisa',
                 'password' => bcrypt('admin'),
             ],
 
             [
                 'kode_operator' => '3',
-                'nama' => 'Jefri',
+                'nama' => 'Ahmad Maulana',
                 'password' => bcrypt('admin'),
             ]
-
         ]);
     }
 }
