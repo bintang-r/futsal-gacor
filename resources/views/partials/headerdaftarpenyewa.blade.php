@@ -1,17 +1,18 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8" />
-	<link rel="icon" type="image/png" href="assets/img/favicon.ico">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>Daftar Penyewa</title>
+    <title>Daftar Penyewa</title>
 
-	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
 
     <!-- CSFR token for ajax call -->
-    <meta name="_token" content="{{ csrf_token() }}"/>
+    <meta name="_token" content="{{ csrf_token() }}" />
 
     <!-- Vue JS -->
     <script type="text/javascript" src="js/vue/vue.js"></script>
@@ -20,10 +21,10 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
     <!-- Animation library for notifications   -->
-    <link href="css/animate.min.css" rel="stylesheet"/>
+    <link href="css/animate.min.css" rel="stylesheet" />
 
     <!--  Light Bootstrap Table core CSS    -->
-    <link href="css/light-bootstrap-dashboard.css?v=1.4.0" rel="stylesheet"/>
+    <link href="css/light-bootstrap-dashboard.css?v=1.4.0" rel="stylesheet" />
 
     <!--     Fonts and icons     -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -32,22 +33,23 @@
 
     <link rel="stylesheet" href="css/tambahsewa-style.css">
 </head>
+
 <body onload="buatId()>
 
 <div class="wrapper">
     <div class="sidebar" data-color="green" data-image="img/sidebar.png">
 
-    <!--
+        <!--
 
         Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
         Tip 2: you can also add an image using data-image tag
 
     -->
 
-    	<div class="sidebar-wrapper">
+        <div class="sidebar-wrapper">
             <div class="logo">
                 <a href="/" class="simple-text">
-                    Futsal Srikandi
+                    Futsal Gacor
                 </a>
             </div>
 
@@ -78,5 +80,5 @@
                 </li>
 
             </ul>
-    	</div>
+        </div>
     </div>

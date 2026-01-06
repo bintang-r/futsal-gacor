@@ -1,6 +1,6 @@
 -- MySQL dump 10.16  Distrib 10.1.41-MariaDB, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: srikandi
+-- Host: localhost    Database: Gacor
 -- ------------------------------------------------------
 -- Server version	10.1.41-MariaDB-0ubuntu0.18.04.1
 

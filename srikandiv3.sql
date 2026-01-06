@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.7.29, for Linux (x86_64)
 --
--- Host: localhost    Database: srikandi
+-- Host: localhost    Database: Gacor
 -- ------------------------------------------------------
 -- Server version	5.7.29-0ubuntu0.18.04.1
 
